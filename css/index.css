@@ -1,8 +1,69 @@
-p {
+p.sub-title {
     color: aquamarine;
 }
+p#sub-title2 {
+    color: lawngreen;
+}
 
+.company {
+    font-weight: bold;
+}
 h1{
     color: blueviolet;
     font-size: 48pt;
+}
+
+div.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50% 0% 50% 50%;
+    position: absolute;
+    left: 440px;
+    top: 215px;
+    margin: 10% 0;
+}
+div.box2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50% 50% 50% 0%;
+    position: absolute;
+    left: 545px;
+    top: 110px;
+    margin: 10% 0;
+}
+div.box3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 0% 50% 50% 50%;
+    position: absolute;
+    left: 545px;
+    top: 215px;
+    margin: 10% 0;
+}
+div.box4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50% 50% 0% 50%;
+    position: absolute;
+    left: 440px;
+    top: 110px;
+    margin: 10% 0;
+}
+div.box5{
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+}
+div.box6{
+    height: 100px;
+    width: 100px;
+    background-color: olivedrab;
 }
